@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.home{
+    margin-top: 300px;
+}
+
+.App{
+
+
+
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav-container ul{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    
+    
+}
+.nav-container ul h1 {
+    color:#fff;
+    font-size: 2rem;
+}
+.navlist{
+    display: flex;
+  
+}
+.navlist *{
+    margin: 0 10px;
+}
+.nav-container ul li{
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    background: steelblue;
+    border-radius: 10px;
+}
+
+nav{
+    background: #000;  
+    color: #fff; 
+}
+.inputcontainer{
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.inputbox{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.inputbox input{
+    width: 540px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.inputbox textarea{
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.inputbox label{
+    font-size: 20px;
+    font-weight: 500;
+}
+.h1{
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 500;
+}
+
+.inputbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputbtn button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 17px;
+}
+
+.inputbtn button:hover{
+    background: hsl(0, 0%, 10%);
+}
+
+.showdata{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 5px;
+   
+
+}
+
+.showdata .showtext{
+    width: 500px;
+    word-wrap: break-word;
+    
+
+}
+.showtext span{
+    font-size: 20px;
+    color: rgba(0,0,0,0.7);
+    margin: 20px;
+
+}
+.fas{
+    margin: 0 5px;
+}
+
+.fas.fa-sharp{
+    padding: 9px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fas.fa-sharp:hover{
+background: hsl(0, 0%, 10%);
+color: #fff;
+}
+
+.fas.fa-xmark{
+    padding: 9px 11px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.fas.fa-xmark:hover{
+    background: hsl(0, 0%, 10%);
+color: #fff;
+}
+
+
+
+
