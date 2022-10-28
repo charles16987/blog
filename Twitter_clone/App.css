@@ -1,0 +1,412 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+
+body{
+    width: 100%;
+    /* overflow-x: hidden; */
+    
+}
+.container{
+    width: 96%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;   
+}
+.logo{
+    margin-top: 5px;
+    display: inline-block;
+    padding: 12px 12px 6px 12px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    
+}
+
+.logoicon{
+    color: rgb(29, 155, 240);
+}
+
+.logo:hover{
+    background: rgb(0,0,0,0.1);
+}
+
+
+.idimg{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+.nav-bg{
+    
+    /* position: relative; */
+    width: 250px;
+    height: 100vh;
+      
+}
+.centercontainer{
+    width: 600px; 
+    border-right:solid 1px rgb(0,0,0,0.1) ;
+    
+}
+/* .centercontainer1{
+    width: 96%;
+    margin: 0 auto;
+} */
+
+nav{
+    position: fixed;
+    top: 0px;
+    width: 250px;
+    height: 100vh;
+    border-right:solid 1px rgb(0,0,0,0.1) ;    
+}
+
+.iconsnav{
+    margin-right: 20px;
+    font-size: 1.5rem;
+    vertical-align: bottom;
+    cursor: pointer;
+}
+
+ul .active{
+    font-weight: bold;
+}
+
+ul >li{
+    padding: 12px;
+    border-radius: 50px;
+    margin: 5px 0;
+    font-size: 20px; 
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+ul li a{
+    color: black;
+}
+
+
+ul >li:hover{
+    background: rgb(0,0,0,0.1);   
+}
+
+.btn{
+    margin-top: 10px;
+    padding: 15px 80px;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    background: rgb(29, 155, 240) ;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    background:hsl(204, 88%, 63%) ;
+}
+
+.idbox{
+    margin-top: 80px;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+}
+
+.idimg{
+    border-radius: 50px;
+    margin-right: 10px;
+}
+
+.idbox .idicons{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}
+
+.idbox div{
+    line-height: 1.4;
+}
+.idbox div p:first-child{
+    color: black;
+    font-weight: bold;
+}
+
+.idbox div p:last-child{
+    color: rgb(83, 100, 113); 
+}
+
+.idbox:hover{
+    background: rgb(0,0,0,0.1);
+    cursor: pointer;
+}
+
+
+/* centercontent */
+
+.center-content-hearder{
+    
+    display: flex;
+    padding: 0 5px;
+    position: fixed;
+    width: 43vw;
+    height:40px ;
+    background: #fff;
+    top: 0;
+    justify-content: space-between;    
+}
+
+.heardericon{
+    font-size: 1.5rem; 
+    margin-top: 7px;  
+}
+.inputcontent{
+    display: flex;
+    margin-top: 20px;
+    border-bottom: solid 1px rgb(0,0,0,0.1);
+    padding: 0 10px;
+    margin-top: 40px;
+}
+.inputcontent1{
+    width: 100%;
+}
+
+.inputpara{
+    padding: 1px 15px;
+    
+    border-radius: 20px;
+    display: inline-block;
+    color: rgb(29, 155, 240);
+    cursor: pointer;
+    font-weight: bolder;
+    transition: all 0.3s ease-in-out;
+    
+    border: 1px solid rgb(0,0,0,0.1);
+
+}
+.inputpara:hover{
+    background: rgb(0,0,0,0.1);
+}
+
+.inputparaicon{
+    vertical-align: bottom;  
+}
+
+.inputpara1{
+    margin-top: 15px;
+
+}
+
+.inputpara1 input{
+    border: none;
+    padding: 20px;
+    outline: none;
+    font-size: 21px;
+    
+    
+}
+
+.inputpara2{
+    padding: 1px 15px 2px;
+    border-radius: 20px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bolder;
+    color: rgb(29, 155, 240);
+    transition: all 0.3s ease-in-out;
+}
+
+.inputpara2:hover{
+    background: rgb(0,0,0,0.1);
+}
+
+.inputparaicon1{
+    vertical-align: bottom; 
+    margin-bottom: 2px; 
+}
+
+.inputpara3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-top: solid 1px rgb(0,0,0,0.1);
+    padding: 5px 10px;
+}
+
+.inputpara3 .inputpara3icon > *{
+
+    margin: 4px;
+    font-size: 1.2rem;
+    color: rgb(29, 155, 240);
+    box-sizing: content-box;
+    padding: 10px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+
+.inputpara3 .inputpara3icon > *:hover{
+    background: rgb(0,0,0,0.1);
+}
+
+
+.inputpara3btn button{
+    padding: 8px 15px;
+    background: rgb(29, 155, 240);
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+
+.showtweet{
+    text-align: center;
+    padding: 17px;
+    font-size: 17px;
+    color: rgb(29, 155, 240);
+    border-bottom: 1px solid rgb(0,0,0,0.1);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+}
+.showtweet:hover{
+    background: rgb(0,0,0,0.1);
+}
+.tweetboximg{
+    border-radius: 20px;
+    /* overflow: hidden; */
+}
+
+.tweetcontentheader{
+    display: flex;
+    padding: 0 15px;
+    margin-top: 15px;
+    
+    
+}
+.tweetbox{
+    border-bottom:solid 1px rgb(0,0,0,0.1) ;
+    margin-bottom: 10px;
+}
+
+.tweetcontentheader .tweetheader{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 0px 0 10px;
+    
+}
+
+.tweetbody{
+    padding:0 15px ;
+    display: flex;
+}
+.tweetbodyname{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.tweetbodyname1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 0px 0 10px;
+}
+.tweetcontentheadericon{
+    margin: 0 0px 0 25px;
+    color: rgb(83, 100, 113);
+    margin-top: 3px;
+    font-size: 17px;
+   
+    
+}
+
+.tweetheader p{
+    color: rgb(83, 100, 113);
+    cursor: pointer;
+    font-weight: bolder;
+    transition: all 0.3s ease-in;
+}
+.tweetheader p:hover{
+    text-decoration: underline;
+}
+
+.tweetheader p span{
+    color: rgb(29, 155, 240);
+}
+.tweetheadericons{
+    vertical-align: bottom;
+    padding: 8px;
+    box-sizing: content-box;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.tweetheadericons:hover{
+    background: rgb(0,0,0,0.1);
+    
+
+}
+
+.tweetbodyname p{
+    color: #000;
+    font-weight: bolder;
+
+}
+
+.tweetbodyname p span{
+    color: rgb(83, 100, 113);
+}
+
+.tweeticons{
+    display: flex;
+    justify-content:space-between;
+    width: 80%;
+    /* margin-left: -30px; */
+    margin-top: 5px;
+    margin-bottom: 10px;
+    
+}
+
+
+.tweeticons1{
+    margin-right: 15px;
+    vertical-align: top;
+    font-size: 1.3rem;
+    vertical-align: middle;
+    
+    padding: 8px;
+    box-sizing: content-box;
+    border-radius: 20px;
+
+    
+}
+
+.tweeticons1:hover{
+    background: rgb(0,0,0,0.1);
+}
+.tweetboximgs{
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+
+}
+
+
+
+
+
+
+
