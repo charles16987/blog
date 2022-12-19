@@ -1,0 +1,115 @@
+.margin{
+    margin-right: 250px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #5cb874;
+}
+.margin1{
+    margin-right: 30px;
+}
+
+.carousel-container{
+    width: 100%;
+
+}
+.carousel img{
+    width: 100%;
+    height: 800px;
+}
+
+.carousel .overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    
+  }
+
+  .carousel .overlay > *{
+    margin-bottom: 30px;
+  }
+
+  .font{
+    font-size: 40px;
+    color:#5cb874;
+    
+  }
+
+ .col-4 h2{
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+ }
+
+ .clients-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  text-align: center;
+ }
+
+ .clients-content .border{
+  position: relative;
+  height: 2px;
+  width: 150px;
+  
+  background: black;
+ }
+
+ .clients-content .border .border-1{
+  position: absolute;
+  height: 4px;
+  width:50px ;
+  background: #5cb874;
+  border-radius: 5px;
+  margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+text-align: center;
+ }
+
+ .clients-content > *{
+  margin: 10px;
+ }
+
+ /* .services-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+  text-align: center;
+ } */
+
+ .services-content{
+  text-align: center;
+ }
+
+ .services-content .row .border{
+  margin: 0;
+ }
+
+ .services-content{
+  padding: 30px;
+ }
+
+ .action{
+  background: #5cb874;
+ }
+
+ .card .header img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+ }
+
+
+
